@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Monthly expenses" max_length="40" name="x_131892_monthly_e_monthly_expenses" type="collection">
+        <element label="Advance amount" max_length="20" name="advance_amount" type="currency"/>
+        <element label="Balance amount" max_length="20" name="balance_amount" type="currency"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Month" max_length="40" name="month" type="choice">
+            <choice>
+                <element label="Jan" sequence="10" value="10"/>
+                <element label="Feb" sequence="20" value="20"/>
+                <element label="Mar" sequence="30" value="30"/>
+                <element label="Apr" sequence="40" value="40"/>
+                <element label="May" sequence="50" value="50"/>
+                <element label="June" sequence="60" value="60"/>
+                <element label="July" sequence="70" value="70"/>
+                <element label="Aug" sequence="80" value="80"/>
+                <element label="Sept" sequence="90" value="90"/>
+                <element label="Oct" sequence="100" value="100"/>
+                <element label="Nov" sequence="110" value="110"/>
+                <element label="Dec" sequence="120" value="120"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="10" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element label="Draft" sequence="10" value="10"/>
+                <element label="Request for approval" sequence="20" value="20"/>
+                <element label="Manager approved" sequence="30" value="30"/>
+                <element label="Manager rejected" sequence="40" value="40"/>
+                <element label="Finance approved" sequence="50" value="50"/>
+                <element label="Finance rejected" sequence="60" value="60"/>
+                <element label="Amount released" sequence="70" value="70"/>
+                <element label="closed" sequence="80" value="80"/>
+            </choice>
+        </element>
+        <element label="Total amount" max_length="20" name="total_amount" type="currency"/>
+        <element choice="1" label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element label="2018" sequence="10" value="10"/>
+                <element label="2017" sequence="20" value="20"/>
+                <element label="2016" sequence="30" value="30"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+    </element>
+</database>

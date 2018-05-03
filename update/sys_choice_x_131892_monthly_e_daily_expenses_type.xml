@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_131892_monthly_e_daily_expenses" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Air fare</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1054f5a0fb1130047d0cfdce1050e40</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:25:33</sys_updated_on>
+            <value>Air fare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auto fare</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:23:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48350b9e0f71130047d0cfdce1050e40</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:25:38</sys_updated_on>
+            <value>Auto fare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bus fare</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:21:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ee4839a0fb1130047d0cfdce1050e1a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:25:45</sys_updated_on>
+            <value>Bus fare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cab fare</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:22:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6715839a0fb1130047d0cfdce1050e1b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:25:51</sys_updated_on>
+            <value>Cab fare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Train fare</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:22:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19f4439a0fb1130047d0cfdce1050e75</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:25:57</sys_updated_on>
+            <value>Train fare</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hostel</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6465439a0fb1130047d0cfdce1050eef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:26:07</sys_updated_on>
+            <value>Hostel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hotel</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>70</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:23:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad55839a0fb1130047d0cfdce1050e1b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:26:13</sys_updated_on>
+            <value>Hotel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Room</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>80</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:25:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0885079a0fb1130047d0cfdce1050ed1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:26:17</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Food</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sequence>90</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:23:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c4507120fb1130047d0cfdce1050e9e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:26:23</sys_updated_on>
+            <value>Food</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_131892_monthly_e_daily_expenses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 12:21:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d1f4c3de0f71130047d0cfdce1050ec6</sys_id>
+            <sys_mod_count>26</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Monthly Expenses" source="x_131892_monthly_e">2a895a120f31130047d0cfdce1050e38</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Monthly Expenses">2a895a120f31130047d0cfdce1050e38</sys_scope>
+            <sys_update_name>sys_choice_x_131892_monthly_e_daily_expenses_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 12:26:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

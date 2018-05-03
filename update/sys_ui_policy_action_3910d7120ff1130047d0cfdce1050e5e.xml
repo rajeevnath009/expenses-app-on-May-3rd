@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>date</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-03 13:10:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3910d7120ff1130047d0cfdce1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date</sys_name>
+        <sys_package display_value="Monthly Expenses" source="x_131892_monthly_e">2a895a120f31130047d0cfdce1050e38</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Monthly Expenses">2a895a120f31130047d0cfdce1050e38</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3910d7120ff1130047d0cfdce1050e5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-03 13:10:32</sys_updated_on>
+        <table>x_131892_monthly_e_daily_expenses</table>
+        <ui_policy display_value="initial mandatory and read only">d28f47120ff1130047d0cfdce1050e5c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

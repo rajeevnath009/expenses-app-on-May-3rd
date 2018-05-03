@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="year" table="x_131892_monthly_e_monthly_expenses" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2018</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_monthly_expenses</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 10:24:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44092a5a0f71130047d0cfdce1050ee0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 10:24:17</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2017</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_monthly_expenses</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 10:24:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a0a665e0f71130047d0cfdce1050e46</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 10:24:30</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2016</label>
+            <language>en</language>
+            <name>x_131892_monthly_e_monthly_expenses</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 10:24:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>521aa65e0f71130047d0cfdce1050e14</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 10:24:46</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>year</element>
+            <name>x_131892_monthly_e_monthly_expenses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-03 10:24:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>320ae65e0f71130047d0cfdce1050e5f</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>year</sys_name>
+            <sys_package display_value="Monthly Expenses" source="x_131892_monthly_e">2a895a120f31130047d0cfdce1050e38</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Monthly Expenses">2a895a120f31130047d0cfdce1050e38</sys_scope>
+            <sys_update_name>sys_choice_x_131892_monthly_e_monthly_expenses_year</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-03 10:24:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Daily Expenses" max_length="40" name="x_131892_monthly_e_daily_expenses" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Bill no" max_length="40" name="bill_no" type="string"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:parent.Employee_name" label="Employee name" max_length="32" name="employee_name" reference="x_131892_monthly_e_monthly_expenses" type="reference"/>
+        <element label="Location from" max_length="32" name="location_from" reference="cmn_location" type="reference"/>
+        <element label="Location to" max_length="32" name="location_to" reference="cmn_location" type="reference"/>
+        <element label="Month" max_length="40" name="month" type="string"/>
+        <element label="Monthly expenditure" max_length="32" name="monthly_expenditure" reference="x_131892_monthly_e_monthly_expenses" type="reference"/>
+        <element label="No.of persons" max_length="40" name="no_of_persons" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" max_length="40" name="project" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Air fare" sequence="10" value="Air fare"/>
+                <element label="Auto fare" sequence="20" value="Auto fare"/>
+                <element label="Bus fare" sequence="30" value="Bus fare"/>
+                <element label="Cab fare" sequence="40" value="Cab fare"/>
+                <element label="Train fare" sequence="50" value="Train fare"/>
+                <element label="Hostel" sequence="60" value="Hostel"/>
+                <element label="Hotel" sequence="70" value="Hotel"/>
+                <element label="Room" sequence="80"/>
+                <element label="Food" sequence="90" value="Food"/>
+            </choice>
+        </element>
+        <element label="Year" max_length="40" name="year" type="string"/>
+        <index name="index">
+            <element name="location_from"/>
+        </index>
+        <index name="index2">
+            <element name="employee_name"/>
+        </index>
+        <index name="index3">
+            <element name="monthly_expenditure"/>
+        </index>
+        <index name="index4">
+            <element name="location_to"/>
+        </index>
+    </element>
+</database>
